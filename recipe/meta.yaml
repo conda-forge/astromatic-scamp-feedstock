@@ -1,5 +1,5 @@
 {% set name = "scamp" %}
-{% set version = "2.14.0" %}
+{% set version = "2.15.0" %}
 
 package:
   name: astromatic-{{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/astromatic/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: a5fc28c88860ff18ac1237841913c236116839bcdd9c77ca1b4a7f652e79d351
+  sha256: eac0b0f11d35c5f49109e1cad8911ffb45407a469ec3d25e6cbde457c194baca
   patches:
     - 0001-Search-lapacke-library.patch
     - 0002-Fix_sprintf_buffer_overflow.patch
