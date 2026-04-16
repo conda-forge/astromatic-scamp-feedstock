@@ -10,7 +10,6 @@ source:
   sha256: eac0b0f11d35c5f49109e1cad8911ffb45407a469ec3d25e6cbde457c194baca
   patches:
     - 0001-Search-lapacke-library.patch
-    - 0002-Fix_sprintf_buffer_overflow.patch
 
 build:
   skip: true  # [win]
